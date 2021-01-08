@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CalculationFragment">
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="3"
+        android:rowCount="5">
+
+        <EditText
+            android:id="@+id/etxt_input"
+            android:textSize="15sp"
+            android:layout_columnSpan="3"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/enter_your_mass_kg"/>
+
+        <Button
+            android:id="@+id/btn_seven"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/btn_eight"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/btn_nine"
+            android:text="@string/_9" />
+
+
+        <Button
+            android:id="@+id/btn_four"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/btn_five"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/btn_six"
+            android:text="@string/_6" />
+
+
+
+        <Button
+            android:id="@+id/btn_one"
+            android:text="@string/_1" />
+
+
+        <Button
+            android:id="@+id/btn_two"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/btn_three"
+            android:text="@string/_3" />
+
+
+        <Button
+            android:id="@+id/btn_point"
+            android:text="@string/point" />
+
+
+        <Button
+            android:id="@+id/btn_zero"
+            android:text="@string/_0" />
+
+
+        <Button
+            android:id="@+id/btn_enter"
+            android:text="@string/next"/>
+
+
+
+    </GridLayout>
+
+</FrameLayout>
